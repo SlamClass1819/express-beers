@@ -9,7 +9,7 @@
     "express": "^4.16.4",
     "mongodb": "^3.1.10"
   },
-  "scripts" : {
-    "start" : "step-05 index.js"
+  "scripts": {
+    "start": "node ./step-05/index.js"
   }
 }
