@@ -38,10 +38,10 @@ app.get('/beer/:beerId', async function (req, res) {
 
 app.use('/beers/img', express.static('img'));
 app.use('/img', express.static('img'));
-app.use(express.static('./step-05/public'));
+app.use(express.static('public'));
 
 var url = process.env.MONGODB_ADDON_URI || 'mongodb://localhost:27017';
-var dbName = process.env.MONGODB_ADDON_DB || 'test'
+var dbName = process.env.MONGODB_ADDON_DB || 'express-beers'
 
 
 

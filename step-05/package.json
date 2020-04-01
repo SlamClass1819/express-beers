@@ -7,10 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "mongodb": "^3.1.10"
+    "mongodb": "^3.1.10",
+    "neat-csv": "^5.2.0",
+    "node-fetch": "^2.6.0"
   },
-  "scripts" : {
-    "start" : "step-05 index.js",
+  "scripts": {
+    "start": "step-05 index.js",
     "import": "./step-05/beers/beers.json"
   }
 }
